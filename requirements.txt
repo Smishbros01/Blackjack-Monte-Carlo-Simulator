@@ -1,0 +1,7 @@
+#requirements.txt
+
+#scientific computing and array manipulation
+numpy
+
+#data visualization and graphing
+matplotlib

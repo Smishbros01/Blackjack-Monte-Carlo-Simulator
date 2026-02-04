@@ -1,0 +1,21 @@
+{
+    "table_rules": {
+        "num_decks": 8,
+        "blackjack_payout": 1.5,
+        "allow_double": true,
+        "allow_split": true,
+        "min_cards_before_shuffle": 156
+    },
+    "simulation_params": {
+        "starting_bankroll": 1000,
+        "games_limit": 5000,
+        "monte_carlo_iterations": 1000,
+        "standard_ev_games": 100000,
+        "monte_carlo_iterations_graph_paths": 100
+    },
+    "betting_params": {
+        "min_bet": 10,
+        "kelly_fraction": 0.25,
+        "count_threshold": 2.0
+    }
+}
